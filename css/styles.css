@@ -111,8 +111,11 @@ p{
 
 /*responsive design*/
 
-/* making responsive to medium desktop size*/
-
+/* making responsive to large desktop size*/
+@media (min-width:1200px){
+.container-fluid{
+    padding-top: 100px;
+}
 /* making responsive to mobile and tablet */
 
     
