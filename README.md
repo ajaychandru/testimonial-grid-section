@@ -66,6 +66,6 @@ this task help me better understand grid system, position , padding and code ref
 
 ## Author
 
-- Website - [Ajay C](https://www.your-site.com)
+- Website - [Ajay C](https://ajaychandru.github.io/testimonial-grid-section/)
 - Frontend Mentor - [@ajaychandru](https://www.frontendmentor.io/profile/ajaychandru)
 
