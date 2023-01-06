@@ -2,35 +2,35 @@
 #testimonial{
     position: relative;
     background-color:white;
-
+   
 }
 .container-fluid{
-    padding: 10% 7.5%;
+    padding:32px 16px;
    
 }
 h1{
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight:bold;
-    font-size: 150%;
-    padding-top: 5%;
+    font-size: 20px;
     position: relative;
     line-height: 1.5;
 }
 h2{
-    font-size: 110%;
+    font-size: 13px
 }
 p{
-    font-size: 100%;
+    font-size: 13px;
     position: relative;
-    top: .5em;
     z-index: 1;
-    line-height: 1.5;
+    line-height: 1.2;
     opacity: .7;
 }
 .testimonial-img{           /*testimonial img to round*/
     border-radius: 100%;
     float: left;
     padding-right:.5em;
+    width: 28px;
+    height:28px;
     
 }
 
@@ -112,40 +112,7 @@ p{
 /*responsive design*/
 
 /* making responsive to medium desktop size*/
-@media (max-width:1200px){
 
-h1{
-    font-size: 125%;
-}
-h2{
-    font-size: 100%;
-}
-h3{
-    font-size: 85%;
-}
-p{
-    font-size: 75%;
-}
-}
 /* making responsive to mobile and tablet */
-@media (max-width:992px){
 
-    h1{
-        font-size: 150%;
-        padding-top: 2.5%;
-    }
-    h2{
-        font-size: 125%;
-    }
-    h3{
-        font-size: 110%;
-    }
-    p{
-        font-size: 100%;
-    }
-
-    .corner-col{
-        padding:12px;
-    }
-    }
     
