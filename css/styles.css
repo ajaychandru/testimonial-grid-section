@@ -114,7 +114,7 @@ p{
 /* making responsive to large desktop size*/
 @media (min-width:1200px){
 .container-fluid{
-    padding-top: 120px 80px;
+    padding: 120px 80px;
 }
 /* making responsive to mobile and tablet */
 
