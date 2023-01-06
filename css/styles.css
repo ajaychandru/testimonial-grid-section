@@ -1,0 +1,151 @@
+/*global font size*/
+#testimonial{
+    position: relative;
+    background-color:white;
+
+}
+.container-fluid{
+    padding: 10% 7.5%;
+   
+}
+h1{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight:bold;
+    font-size: 150%;
+    padding-top: 5%;
+    position: relative;
+    line-height: 1.5;
+}
+h2{
+    font-size: 110%;
+}
+p{
+    font-size: 100%;
+    position: relative;
+    top: .5em;
+    z-index: 1;
+    line-height: 1.5;
+    opacity: .7;
+}
+.testimonial-img{           /*testimonial img to round*/
+    border-radius: 100%;
+    float: left;
+    padding-right:.5em;
+    
+}
+
+.verified{              /*making verified opacity 70%*/
+    opacity: .5;
+}
+/*revioew 1*/
+
+.user-review-1{
+    padding:5%;
+   height: 100%;
+   background-color: hsl(263, 55%, 52%);
+   color:  white;
+   position: relative;
+   border-radius: 3%;
+   filter: drop-shadow(0 0 0.75rem grey);
+}
+.quotient-img{
+                                    /* adjusting quotient img to back */
+    position: absolute;
+    right:15%;
+    top: 0;
+    z-index: 0;
+    width: 7.5vw;
+    height: 10vw;
+}
+
+/* user 2 review*/
+
+.user-review-2{
+    padding:5%;
+   height: 100%;
+   background-color: hsl(217, 19%, 35%);
+   color: hsl(210, 46%, 95%);
+   position: relative;
+   border-radius: 3%;
+   filter: drop-shadow(0 0 0.75rem grey);
+}
+
+/* user 3 review*/
+
+.user-review-3{
+    padding:5%;
+   height: 100%;
+   background-color:white;
+   color:black;
+   position: relative;
+   border-radius: 3%;
+   filter: drop-shadow(0 0 0.75rem grey);
+}
+
+/* user 4 review*/
+
+.user-review-4{
+    padding:5%;
+   height: 100%;
+   background-color:hsl(219, 29%, 14%);
+   color: hsl(0, 0%, 81%);
+   position: relative;
+   border-radius: 3%;
+   filter: drop-shadow(0 0 0.75rem grey);
+}
+
+/* user 5 review*/
+
+.user-review-5{
+   padding: 5%;
+   border-radius: 3%;
+   background-color: white;
+   filter: drop-shadow(0 0 0.75rem grey);
+ 
+}
+.corner-col{
+    height: 100%;
+    padding: 5%;
+}
+
+
+/*responsive design*/
+
+/* making responsive to medium desktop size*/
+@media (max-width:1200px){
+
+h1{
+    font-size: 125%;
+}
+h2{
+    font-size: 100%;
+}
+h3{
+    font-size: 85%;
+}
+p{
+    font-size: 75%;
+}
+}
+/* making responsive to mobile and tablet */
+@media (max-width:992px){
+
+    h1{
+        font-size: 150%;
+        padding-top: 2.5%;
+    }
+    h2{
+        font-size: 125%;
+    }
+    h3{
+        font-size: 110%;
+    }
+    p{
+        font-size: 100%;
+    }
+
+    .corner-col{
+        padding:12px;
+    }
+    }
+    
